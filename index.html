@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two digit Addition</title>
+    <style>
+        h1{
+            display: inline-block;
+            font-size: 60px;
+        }
+        input{
+            width: 150px;
+            height: 50px;
+            font-size: xx-large;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            font-size: x-large;
+        }
+
+        .main-box{
+            width: 200px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .buttons{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="main-box">
+        <h1 id="a">?</h1>
+        <h1 id="op">+</h1>
+        <h1 id="b">?</h1><br>
+        <input type="text" id="value">
+    </div>
+    <div class="buttons">
+    <button id="reset">reset</button>
+    <button id="start">start</button>
+    </div>
+</body>
+</html>
